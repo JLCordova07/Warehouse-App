@@ -1,0 +1,13 @@
+@Inventario.api_HostAddress = http://localhost:7267/api/InventoryItem
+
+GET {{Inventario.api_HostAddress}}  
+
+GET {{Inventario.api_HostAddress}}/1
+
+POST {{Inventario.api_HostAddress}}/
+
+PUT {{Inventario.api_HostAddress}}/1
+
+DELETE {{Inventario.api_HostAddress}}/1
+
+###
